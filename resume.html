@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0f99558fa2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
     <link href="./assets/css/style.css" rel="stylesheet">
     <title>Carl Ellis</title>
 </head>
+
 <body>
     <header>
-        <div class="row no-gutters" >
+        <div class="row no-gutters">
             <a href="index.html" class="col-md-4 logo">
 
             </a>
-            <div class="col-md-8" >
+            <div class="col-md-8">
                 <div class="row no-gutters bg-color-name-title">
                     <div class="col heading">
                         <h1 class="name">Carl Ellis</h1>
@@ -27,16 +31,20 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a>
+                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa-solid fa-house"
+                                        aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa-solid fa-graduation-cap"
+                                        aria-hidden="true"></i><span>Resume</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa-solid fa-comment" aria-hidden="true"></i><span>Contact</span></a>
+                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa-solid fa-comment"
+                                        aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa-solid fa-download" aria-hidden="true"></i><span>Download</span></a>
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa-solid fa-download"
+                                        aria-hidden="true"></i><span>Download</span></a>
                             </li>
                         </ul>
                     </div>
@@ -45,8 +53,111 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="container-fluid">
+        <div class="row">
 
+            <div class="col-md-4 bg-color-work-history section-column">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="history-heading uppercase">
+                            Work History
+                        </h3>
+                    </div>
+                </div>
+                <div class="history-items">
+                    <div class="timeline-item" data-dates="11/2003 - 02/2017">
+                        <h4>BrightHouse</h4>
+                        <p>Store Manager</p>
+                    </div>
+                    <div class="timeline-item" data-dates="02/2017 - 08/2022">
+                        <h4>Self-Employed</h4>
+                        <p>Company Director</p>
+                    </div>
+                    <div class="timeline-item" data-dates="08/2022 - Present">
+                        <h4>Carpetright</h4>
+                        <p>In Home Consultant</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 bg-color-three-reasons section-column">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase">My Skills</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa-solid fa-tv" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Front End</h4>
+                                <p>
+                                    I'm skilled in User experience design using the trinity of HTML/CSS/JavaScript.
+                                    I also have extensive experiance in Front End Frameworks such as Agular and React.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa-solid fa-gears" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Back End</h4>
+                                <p>
+                                    I specialize in data-driven web applications. Many of my projects utilise
+                                    document-based data. I use Python and Django in conjuntion with MongoDB
+                                    to process and present information.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row progress-section">
+                    <div class="col">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                                <span class="sr-only">90% complete</span>
+                                <span class="progress-type">HTML / HTML5</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                                <span class="sr-only">80% complete</span>
+                                <span class="progress-type">CSS / CSS3</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                                <span class="sr-only">70% complete</span>
+                                <span class="progress-type">JavaScript / jquery</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                                <span class="sr-only">80% complete</span>
+                                <span class="progress-type">Django / Python</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                                <span class="sr-only">80% complete</span>
+                                <span class="progress-type">SQL / NoSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -55,7 +166,8 @@
                 <p class="inline-block">
                     Student Full Stack Web Developer. Skilled in everything from HTML to Heroku.
                     The capacity for structural and design thinking.
-                    I have over ten years experience working in retail with a wealth of skills from management to delivering
+                    I have over ten years experience working in retail with a wealth of skills from management to
+                    delivering
                     brilliant customer service.
                 </p>
             </div>
@@ -101,7 +213,12 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
