@@ -358,6 +358,10 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+.form-control {
+    resize: none;
+}
+
 /* ---------------------------Media Queries */
 
 @media(min-width: 992px) {
